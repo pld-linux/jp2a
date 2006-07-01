@@ -1,5 +1,5 @@
-Summary:	jp2a
-Summary(pl):	jp2a
+Summary:	jp2a - convert JPEG images to ASCII
+Summary(pl):	jp2a - konwersja obrazków JPEG do ASCII
 Name:		jp2a
 Version:	0.9.8
 Release:	1
@@ -13,7 +13,7 @@ BuildRequires:	rpmbuild(macros) >= 1.228
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-jp2a is a small utility that converts JPG images to ASCII. It's
+jp2a is a small utility that converts JPEG images to ASCII. It's
 written in C.
 
 %description -l pl
