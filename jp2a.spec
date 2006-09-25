@@ -1,12 +1,12 @@
 Summary:	jp2a - convert JPEG images to ASCII
 Summary(pl):	jp2a - konwersja obrazków JPEG do ASCII
 Name:		jp2a
-Version:	1.0.5
+Version:	1.0.6
 Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/jp2a/%{name}-%{version}.tar.bz2
-# Source0-md5:	ad0683f769e1b0e02c17c29b178df4aa
+# Source0-md5:	3febc9c404a9e45ffcb36924861ddd33
 URL:		http://jp2a.sourceforge.net/
 BuildRequires:	libjpeg-devel
 BuildRequires:	rpmbuild(macros) >= 1.228
