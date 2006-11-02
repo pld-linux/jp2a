@@ -8,6 +8,7 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/jp2a/%{name}-%{version}.tar.bz2
 # Source0-md5:	3febc9c404a9e45ffcb36924861ddd33
 URL:		http://jp2a.sourceforge.net/
+BuildRequires:	curl-devel
 BuildRequires:	libjpeg-devel
 BuildRequires:	rpmbuild(macros) >= 1.228
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
